@@ -1,17 +1,17 @@
 return {
   "williamboman/mason.nvim",
-  enabled = false,
+  enabled = true,
   cmd = "Mason",
   keys = { { "<leader>cm", "<cmd>Mason<cr>", desc = "Mason" } },
   build = ":MasonUpdate",
   opts_extend = { "ensure_installed" },
   opts = {
     ensure_installed = {
-      "stylua",
-      "shfmt",
-      "jdtls",
-      "kotlin-language-server",
-      "pyright",
+      -- "stylua",
+      -- "shfmt",
+      -- "jdtls",
+      -- "kotlin-language-server",
+      -- "pyright",
     },
   },
   ---@param opts MasonSettings | {ensure_installed: string[]}

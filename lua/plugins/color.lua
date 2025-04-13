@@ -1,9 +1,12 @@
 return {
-  { "atelierbram/Base2Tone-nvim" },
+  -- add gruvbox
+  { "catppuccin/nvim" },
+
+  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "base2tone_heath_dark",
+      colorscheme = "catppuccin-latte",
     },
   },
 }
